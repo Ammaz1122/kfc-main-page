@@ -1,0 +1,100 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li{
+    margin: 1rem;
+}
+
+.btn button{
+    color: white;
+    background-color: black;
+    padding: 0.4rem 2.3rem 0.4rem 0.6rem;
+    text-transform: uppercase;
+
+}
+
+/* .logo img{
+    background-color: black;
+    width: 110px;
+    height: 120px;
+    padding: 10px 10px 10px 10px;
+}
+
+.background-image img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    margin-top: -8px;
+    /* z-index: -1; */
+
+
+.logo{
+    background-color: black;
+    padding: 2rem 0.8rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.front-page{
+    background-image: url("pc-background.jpg");
+    height: 60vh;
+    background-position: center center;
+    background-size: cover;
+    margin-top: -8px;
+}
+
+.resorts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:20px;
+ ;
+}
+
+.left{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    height: 350px;
+    /* border: 2px solid red; */
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pc-para{
+    line-height: 1.5;
+    margin-bottom: -120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hashoo{
+    margin-top: 150px;
+    margin-left:200px;
+}
+
+.right-img{
+    display: flex;
+    background-image: url("https://www.pchotels.com/asset/images/img-1.jpg");
+    width: 400px;
+    height: 390px;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
